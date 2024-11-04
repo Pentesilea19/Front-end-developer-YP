@@ -109,11 +109,16 @@
     color: var(--primary-color);
   }
 
+  .button-app {width: 100%;}
+
   @media (max-width: 576px) {
+    h1 {font-size: 32px;}
     p1 {font-size: 14px;}
     .appdescription {text-align: center}
 h2 {font-size: 18px; text-align: center;}
+.button-app {display: block; width: auto; text-align: center;}
 }
+
 
   
   
